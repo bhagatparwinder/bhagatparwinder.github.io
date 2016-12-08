@@ -9,10 +9,18 @@ body#resume {
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
-h1 {
+h1, h4{
     margin: 0;
     -webkit-margin-before: 0;
     -webkit-margin-after: 0;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 15px;
+    text-transform: uppercase;
+    color: #EB6E80;
 }
 
 h3 {
@@ -22,8 +30,16 @@ h3 {
     line-height: 1.25em;
 }
 
+article h3{
+    color: #EB6E80;
+}
+
+h4{
+    font-weight: 300;
+    font-style: italic;
+}
+
 p {
-    line-height: 1.5em;
     margin: 5px 0 18px;
     font-size: 15px;
 }
@@ -59,7 +75,7 @@ header {
 }
 
 #contact-info {
-    text-align: center;
+    text-align: right;
     margin: 0 auto;
 }
 
@@ -88,6 +104,10 @@ footer {
         border-bottom: 1px solid #ccc;
         padding-bottom: 10px;
     }
+     #contact-info {
+        width: 30%;
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 600px) {
@@ -111,7 +131,7 @@ footer {
     #contact-info {
         float: right;
         width: 30%;
-        text-align: left;
+        text-align: right;
     }
     body > section section {
         width: 63.513514%;
