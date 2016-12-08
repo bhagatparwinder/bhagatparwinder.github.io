@@ -1,6 +1,5 @@
 # Parwinder Bhagat
-## Full-time web developer.
-### Making this web a safer place to surf in. Happy, cheerful & confident.
+### Full-time web developer. Making this web a safer place to surf in. Happy, cheerful & confident.
 Get in touch: **contact@bhagat.me**
 
 Follow me on Twitter: **https://twitter.com/bhagatparwinder**
