@@ -1,0 +1,141 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800');
+body {
+    padding: 15px;
+    background-color: #18121E;
+    color: #252525;
+}
+
+body#resume {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    margin: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1.25em;
+}
+
+p {
+    line-height: 1.5em;
+    margin: 5px 0 18px;
+    font-size: 15px;
+}
+
+#resume p {
+    font-weight: 300;
+    line-height: 1.4em;
+}
+
+a {
+    color: #C3272F;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body > section {
+    background-color: #fff;
+    max-width: 740px;
+    padding: 20px 25px;
+    margin: 0 auto 15px;
+}
+
+header {
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+#resume-title {
+    margin: 0 auto;
+}
+
+#contact-info {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#contact-info p {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+#contact-info a {
+    color: #252525;
+}
+
+footer {
+    clear: both;
+    padding: 10px 0;
+    text-align: left;
+    font-weight: 300;
+    font-size: 16px;
+    border-bottom: 1px solid #EB6E80;
+}
+
+@media screen and (min-width: 100px) {
+    #resume-title {
+        text-align: center;
+        margin-bottom: 15px;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        padding: 20px 40px;
+    }
+    body > section {
+        padding: 40px 50px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    #resume-title {
+        float: left;
+        margin: 0;
+        text-align: left;
+        margin-bottom: 0;
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+    #contact-info {
+        float: right;
+        width: 30%;
+        text-align: left;
+    }
+    body > section section {
+        width: 63.513514%;
+        float: left;
+        clear: left;
+    }
+}
+
+@media print {
+    body > section {
+        padding: 10px;
+    }
+    p {
+        font-size: 14px;
+    }
+    #contact-info {
+        float: right;
+        width: 30%;
+        margin-top: 15px 0 0;
+        text-align: left;
+    }
+    body > section section {
+        width: 63.513514%;
+        float: left;
+        clear: left;
+    }
+}
