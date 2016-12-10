@@ -9,7 +9,8 @@ body#resume {
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
-h1, h4{
+h1,
+h4 {
     margin: 0;
     -webkit-margin-before: 0;
     -webkit-margin-after: 0;
@@ -30,11 +31,11 @@ h3 {
     line-height: 1.25em;
 }
 
-article h3{
+article h3 {
     color: #EB6E80;
 }
 
-h4{
+h4 {
     font-weight: 300;
     font-style: italic;
 }
@@ -75,8 +76,8 @@ header {
 }
 
 #contact-info {
-    text-align: right;
     margin: 0 auto;
+    text-align: right;
 }
 
 #contact-info p {
@@ -89,33 +90,35 @@ header {
 }
 
 footer {
+    border-bottom: 1px solid #EB6E80;
     clear: both;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 20px;
     padding: 10px 0;
     text-align: left;
-    font-weight: 300;
-    font-size: 16px;
-    border-bottom: 1px solid #EB6E80;
-    margin-top: 20px;
 }
-.helper{
+
+.helper {
+    color: #fff;
+    margin: 0 auto;
     margin: 0 auto;
     max-width: 740px;
     padding: 0;
-    margin: 0 auto;
     text-align: center;
-    color: #fff;
 }
+
 @media screen and (min-width: 100px) {
     #resume-title {
-        text-align: center;
-        margin-bottom: 15px;
         border-bottom: 1px solid #ccc;
+        margin-bottom: 15px;
         padding-bottom: 10px;
-    }
-     #contact-info {
         text-align: center;
     }
-    .helper{
+    #contact-info {
+        text-align: center;
+    }
+    .helper {
         display: none;
     }
 }
@@ -127,37 +130,37 @@ footer {
     body > .content {
         padding: 40px 50px;
     }
-    .helper{
+    .helper {
         display: block;
     }
 }
 
 @media screen and (min-width: 800px) {
     #resume-title {
-        float: left;
-        margin: 0;
-        text-align: left;
-        margin-bottom: 0;
         border-bottom: none;
+        float: left;
+        margin-bottom: 0;
+        margin: 0;
         padding-bottom: 0;
+        text-align: left;
     }
     #contact-info {
         float: right;
-        width: 30%;
         text-align: right;
+        width: 30%;
     }
     body > .content section {
-        width: 63.513514%;
-        float: left;
         clear: left;
+        float: left;
+        width: 63.513514%;
     }
-    .helper{
+    .helper {
         display: block;
     }
 }
 
 @media print {
-    body{
+    body {
         background-color: #fff;
     }
     body > .content {
@@ -166,29 +169,29 @@ footer {
     p {
         font-size: 14px;
     }
-    header{
+    header {
         margin-bottom: 0;
     }
     #resume-title {
-        float: left;
-        margin: 0;
-        text-align: left;
-        margin-bottom: 0;
         border-bottom: none;
+        float: left;
+        margin-bottom: 0;
+        margin: 0;
         padding-bottom: 0;
+        text-align: left;
     }
     #contact-info {
         float: right;
-        width: 30%;
         margin-top: 15px 0 0;
         text-align: right;
+        width: 30%;
     }
     body > .content section {
-        width: 63.513514%;
-        float: left;
         clear: left;
+        float: left;
+        width: 63.513514%;
     }
-    .helper{
+    .helper {
         display: none;
     }
 }
