@@ -95,6 +95,7 @@ footer {
     font-weight: 300;
     font-size: 16px;
     border-bottom: 1px solid #EB6E80;
+    margin-top: 20px;
 }
 
 @media screen and (min-width: 100px) {
@@ -140,17 +141,31 @@ footer {
 }
 
 @media print {
+    body{
+        background-color: #fff;
+    }
     body > section {
-        padding: 10px;
+        padding: 5px;
     }
     p {
         font-size: 14px;
+    }
+    header{
+        margin-bottom: 0;
+    }
+    #resume-title {
+        float: left;
+        margin: 0;
+        text-align: left;
+        margin-bottom: 0;
+        border-bottom: none;
+        padding-bottom: 0;
     }
     #contact-info {
         float: right;
         width: 30%;
         margin-top: 15px 0 0;
-        text-align: left;
+        text-align: right;
     }
     body > section section {
         width: 63.513514%;
