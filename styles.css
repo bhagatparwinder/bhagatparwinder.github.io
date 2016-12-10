@@ -58,7 +58,7 @@ a:hover {
     text-decoration: underline;
 }
 
-body > section {
+body > .content {
     background-color: #fff;
     max-width: 740px;
     padding: 20px 25px;
@@ -97,7 +97,14 @@ footer {
     border-bottom: 1px solid #EB6E80;
     margin-top: 20px;
 }
-
+.helper{
+    margin: 0 auto;
+    max-width: 740px;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
 @media screen and (min-width: 100px) {
     #resume-title {
         text-align: center;
@@ -108,14 +115,20 @@ footer {
      #contact-info {
         text-align: center;
     }
+    .helper{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 600px) {
     body {
         padding: 20px 40px;
     }
-    body > section {
+    body > .content {
         padding: 40px 50px;
+    }
+    .helper{
+        display: block;
     }
 }
 
@@ -133,10 +146,13 @@ footer {
         width: 30%;
         text-align: right;
     }
-    body > section section {
+    body > .content section {
         width: 63.513514%;
         float: left;
         clear: left;
+    }
+    .helper{
+        display: block;
     }
 }
 
@@ -144,7 +160,7 @@ footer {
     body{
         background-color: #fff;
     }
-    body > section {
+    body > .content {
         padding: 5px;
     }
     p {
@@ -167,9 +183,12 @@ footer {
         margin-top: 15px 0 0;
         text-align: right;
     }
-    body > section section {
+    body > .content section {
         width: 63.513514%;
         float: left;
         clear: left;
+    }
+    .helper{
+        display: none;
     }
 }
