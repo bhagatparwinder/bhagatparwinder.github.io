@@ -68,11 +68,21 @@ body > .content {
 
 header {
     overflow: hidden;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 #resume-title {
     margin: 0 auto;
+}
+
+#resume-title a {
+    font-size: 12px;
+    display: block;
+    color: #666;
+}
+
+#resume-title h3 {
+    margin-bottom: 5px;
 }
 
 #contact-info {
@@ -168,9 +178,6 @@ footer {
     }
     p {
         font-size: 14px;
-    }
-    header {
-        margin-bottom: 0;
     }
     #resume-title {
         border-bottom: none;
