@@ -1,2 +1,3 @@
-# bhagatparwinder.github.io
-https://bhagat.me
+https://bhagatparwinder.github.io/
+
+TODO: https://bhagat.me
